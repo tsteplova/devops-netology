@@ -11,3 +11,5 @@
 # Игнорируются все строчки с символом  #
 #
 # Игнорируются конфигурационные файлы CLI : .terraformrc, terraform.rc
+#
+# fix recovery after removal

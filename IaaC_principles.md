@@ -41,7 +41,7 @@
 
 **Установка VirtualBox**
 
-[https://github.com/tsteplova/devops-netology/blob/fix/VM.png]:
+![VM.png](https://github.com/tsteplova/devops-netology/blob/fix/VM.png?raw=true)
 
 **Установка Vagrant**
 

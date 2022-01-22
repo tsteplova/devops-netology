@@ -45,9 +45,9 @@
 
 **Установка Vagrant**
 
-![](C:\Users\Admin\devops-netology_dz\vagrant.png)
+![vagrant.png](https://github.com/tsteplova/devops-netology/blob/fix/vagrant.png?raw=true)
 
 **Установка Ansible**
 
-![](C:\Users\Admin\devops-netology_dz\ansible.png)
+![ansible.png](https://github.com/tsteplova/devops-netology/blob/fix/ansible.png?raw=true)
 

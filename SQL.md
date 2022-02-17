@@ -6,7 +6,9 @@
 >
 > Приведите получившуюся команду или docker-compose манифест.
 
+![SQL.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL.png?raw=true)
 
+![SQL1.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL1.png?raw=true)
 
 #### Задача 2
 
@@ -20,17 +22,15 @@
 
 
 
+![SQL5.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL5.png?raw=true)
 
+![SQL4.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL4.png?raw=true)
 
 > Таблица orders:
 >
 > - id (serial primary key)
 > - наименование (string)
 > - цена (integer)
-
-
-
-
 
 > Таблица clients:
 >
@@ -39,7 +39,7 @@
 > - страна проживания (string, index)
 > - заказ (foreign key orders)
 
-
+![SQL3.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL3.png?raw=true)
 
 
 

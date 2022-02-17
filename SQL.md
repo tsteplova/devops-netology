@@ -20,9 +20,7 @@
 > - создайте пользователя test-simple-user
 > - предоставьте пользователю test-simple-user права на SELECT/INSERT/UPDATE/DELETE данных таблиц БД test_db
 
-
-
-![SQL5.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL5.png?raw=true)
+![SQL9.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL9.png?raw=true)
 
 ![SQL4.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL4.png?raw=true)
 
@@ -41,8 +39,6 @@
 
 ![SQL3.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL3.png?raw=true)
 
-
-
 > Приведите:
 >
 > - итоговый список БД после выполнения пунктов выше,
@@ -50,9 +46,7 @@
 > - SQL-запрос для выдачи списка пользователей с правами над таблицами test_db
 > - список пользователей с правами над таблицами test_db
 
-
-
-
+![SQL5.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL5.png?raw=true)
 
 #### Задача 3
 
@@ -97,9 +91,7 @@
 >   - запросы
 >   - результаты их выполнения.
 
-
-
-
+![SQL6.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL6.png?raw=true)
 
 #### Задача 4
 
@@ -119,11 +111,7 @@
 >
 > Подсказк - используйте директиву `UPDATE`.
 
-
-
-
-
-
+![SQL7.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL7.png?raw=true)
 
 #### Задача 5
 
@@ -131,11 +119,7 @@
 >
 > Приведите получившийся результат и объясните что значат полученные значения.
 
-
-
-
-
-
+![SQL8.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL8.png?raw=true)
 
 #### Задача 6
 

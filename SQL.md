@@ -62,11 +62,9 @@
 > | Монитор      | 7000 |
 > | Гитара       | 4000 |
 
+​     insert into orders VALUES (1, 'Шоколад', 10), (2, 'Принтер', 3000), (3, 'Книга', 500), (4, 'Монитор', 7000), (5, 'Гитара', 4000);
 
-
-
-
-
+![SQL10.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL10.png?raw=true)
 
 > Таблица clients
 >
@@ -78,11 +76,9 @@
 > | Ронни Джеймс Дио     | Russia            |
 > | Ritchie Blackmore    | Russia            |
 
+​     insert into clients VALUES (1, 'Иванов Иван Иванович', 'USA'), (2, 'Петров Петр Петрович', 'Canada'), (3, 'Иоганн Себастьян Бах', 'Japan'), (4, 'Ронни Джеймс Дио', 'Russia'), (5, 'Ritchie Blackmore', 'Russia');
 
-
-
-
-
+![SQL11.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL11.png?raw=true)
 
 > Используя SQL синтаксис:
 >
@@ -91,7 +87,7 @@
 >   - запросы
 >   - результаты их выполнения.
 
-![SQL6.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL6.png?raw=true)
+![SQL12.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL12.png?raw=true)
 
 #### Задача 4
 
@@ -111,6 +107,10 @@
 >
 > Подсказк - используйте директиву `UPDATE`.
 
+![SQL13.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL13.png?raw=true)
+
+​      также можно по-другому, результат тот же
+
 ![SQL7.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL7.png?raw=true)
 
 #### Задача 5
@@ -120,6 +120,10 @@
 > Приведите получившийся результат и объясните что значат полученные значения.
 
 ![SQL8.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL8.png?raw=true)
+
+
+
+
 
 #### Задача 6
 

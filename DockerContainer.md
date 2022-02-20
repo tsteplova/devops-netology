@@ -94,9 +94,43 @@
 >
 > - <p align="justify"> Подключитесь во второй контейнер и отобразите листинг и содержание файлов в `/data` контейнера.</p>
 
+```
+Подымаем первый контейнер, centos
+```
 
+**docker run -d -v /data:/data centos sleep infinity**
 
+![docker1.png](https://github.com/tsteplova/devops-netology/blob/fix/docker1.png?raw=true)
 
+При помощи exec, на уже запущённом контейнере вызываю bash, через ls показываю смотрим volume.
+
+**docker exec -it a7827fe3628d bash**
+
+![docker2.png](https://github.com/tsteplova/devops-netology/blob/fix/docker2.png?raw=true)
+
+```
+Подымаем второй контейнер, debian
+```
+
+**docker run -d -v /data:/data debian:stable**
+
+![docker3.png](https://github.com/tsteplova/devops-netology/blob/fix/docker3.png?raw=true)
+
+При помощи exec, на уже запущённом контейнере вызываю bash, через ls показываю смотрим volume.
+
+**docker exec -it 4826225b9b0e bash**
+
+![docker4.png](https://github.com/tsteplova/devops-netology/blob/fix/docker4.png?raw=true)
+
+С контейнера под centos создаю в директории файл
+
+**echo "Hello Netology" > /data/centos.txt**
+
+![docker5.png](https://github.com/tsteplova/devops-netology/blob/fix/docker5.png?raw=true)
+
+В директории /data в контейнере с Debian
+
+![docker6.png](https://github.com/tsteplova/devops-netology/blob/fix/docker6.png?raw=true)
 
 ****
 

@@ -94,17 +94,15 @@ postgres=# \l
 >
 > Можно ли было изначально исключить "ручное" разбиение при проектировании таблицы orders?
 
+Переименовываем старую таблицу и создаем новую 
 
+![PostgreSQL11.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL11.png?raw=true)
 
+Можно ли было изначально исключить "ручное" разбиение при проектировании таблицы orders?
 
+При изначальном проектировании таблиц можно было сделать ее секционирование (разбиение одной большой логической таблицы на несколько меньших физических секций)
 
-
-
-
-
-
-
-
+--------
 
 > #### Задача 4
 >
@@ -112,9 +110,17 @@ postgres=# \l
 >
 > Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
 
+Используя утилиту `pg_dump` создайте бекап БД `test_database`.
 
+pg_dump -U postgres -d test_database > /var/lib/postgresql/data/ test_database_dump.sql
 
+![PostgreSQL12.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL12.png?raw=true)
 
+Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
 
+можно добавить индекс
 
+```
+CREATE INDEX ON orders ((lower(title)));
+```
 

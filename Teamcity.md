@@ -17,11 +17,11 @@
 
 ![Teamcity_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_2.png?raw=true)
 
->1. Сделайте autodetect конфигурации
+>2. Сделайте autodetect конфигурации
 
 ![Teamcity_3.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_3.png?raw=true)
 
->1. Сохраните необходимые шаги, запустите первую сборку master'a
+>3. Сохраните необходимые шаги, запустите первую сборку master'a
 
 ![Teamcity_4.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_4.png?raw=true)
 

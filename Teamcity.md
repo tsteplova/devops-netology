@@ -4,9 +4,7 @@
 >
 > 1. Поднимите инфраструктуру [teamcity](https://github.com/netology-code/mnt-homeworks/blob/master/09-ci-04-teamcity/teamcity/docker-compose.yml)
 
-
-
-
+![Teamcity_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_1.png?raw=true)
 
 > 1. Если хочется, можете создать свою собственную инфраструктуру на  основе той технологии, которая нравится. Инструкция по установке из [документации](https://www.jetbrains.com/help/teamcity/installing-and-configuring-the-teamcity-server.html)
 > 2. Дождитесь запуска teamcity, выполните первоначальную настройку

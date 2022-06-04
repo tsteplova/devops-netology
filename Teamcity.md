@@ -39,9 +39,20 @@
 ![Teamcity_5.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_5.png?raw=true)
 
 > 4. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`
->5. Убедитесь, что нет собранного артефакта в сборке по ветке `master`
-> 6. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки
->7. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны
-> 8. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity
->16. В ответ предоставьте ссылку на репозиторий
+> 5. Убедитесь, что нет собранного артефакта в сборке по ветке `master`
+
+![Teamcity_6.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_6.png?raw=true)
+
+> 4. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки
+> 5. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны
+
+![Teamcity_7.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_7.png?raw=true)
+
+> 4. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity
+
+![Teamcity_8.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_8.png?raw=true)
+
+> 4. В ответ предоставьте ссылку на репозиторий
+
+
 

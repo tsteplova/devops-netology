@@ -102,4 +102,12 @@
 
 ![Cloud_2.png](https://github.com/tsteplova/devops-netology/blob/fix/yandex_cloud/Cloud_2.png?raw=true)
 
+**Внесение правок:**
+
+> 1. Ответ на вопрос: при помощи какого инструмента (из разобранных на прошлом занятии) можно создать свой образ ami?
+
+[Packer](https://www.packer.io/)
+
+> 2. Ссылку на репозиторий с исходной конфигурацией терраформа.
+
 [репозиторий](https://github.com/tsteplova/devops-netology/tree/fix/yandex_cloud)

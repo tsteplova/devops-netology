@@ -24,9 +24,11 @@ variable "replicator_psw" {
   default = "vagrantrep"
 }
 
-# Пароли для доступа к графическим интерфейсам.
+# Пароль для доступа к Gitlab от пользователя `root`
+variable "gitlab_psw" {
+  default = "vagrantlab"
+}
 
-#
 # Пароль для доступа к Grafana от пользователя `admin`
 variable "grafana_psw" {
   default = "vagrantgra"

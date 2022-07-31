@@ -15,7 +15,7 @@ gitlab_time_zone: "UTC"
 gitlab_default_theme: '2'
 
 # GitLab root password after install
-gitlab_root_password: "vagrantgit"
+gitlab_root_password: "{{ gitlab_psw }}"
 
 # GitLab runner token after install
 gitlab_runner_token: "cBTTnv_9daaJano7Dn4G"

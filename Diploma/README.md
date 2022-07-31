@@ -52,6 +52,8 @@ $ terraform workspace list
 
 ![YO_workspace.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_workspace.png?raw=true)
 
+![YO_Backend.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_Backend.png?raw=true)
+
 7. **Создание инфраструктуры**
 
 В качетсве backend используется S3 bucket YC
@@ -85,7 +87,7 @@ $ terraform apply -auto-approve
 
 ![YO_3.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_3.png?raw=true)
 
-В YC после созданий инфраструктуры представлены:
+9. В YC после созданий инфраструктуры представлены:
 
 ##### Ноды виртуальных машин
 
@@ -101,3 +103,20 @@ $ terraform apply -auto-approve
 
 ![YO_dns.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_dns.png?raw=true)
 
+10. После создания инфраструктуры проверяем доступность сайта по https:
+
+    ![App.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/App.png?raw=true)
+
+![YO_certifi.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_certifi.png?raw=true)
+
+![Alertmanager.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Alertmanager.png?raw=true)
+
+![Alertmanager_status_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Alertmanager_status_1.png?raw=true)
+
+![Alertmanager_status_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Alertmanager_status_2.png?raw=true)
+
+![Runners.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Runners.png?raw=true)
+
+![Grafana_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Grafana_1.png?raw=true)
+
+![Prometheus.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Prometheus.png?raw=true)

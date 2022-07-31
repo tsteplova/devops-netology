@@ -1,0 +1,21 @@
+---
+# General config.
+gitlab_domain: example.com
+gitlab_external_url: "http://{{ gitlab_domain }}/"
+gitlab_edition: "gitlab-ce"
+gitlab_config_template: "gitlab.rb.j2"
+gitlab_repository_installation_script_url: "https://packages.gitlab.com/install/repositories/gitlab/{{ gitlab_edition }}/script.deb.sh"
+
+gitlab_dependencies:
+  - postfix
+  - curl
+  - tzdata
+
+gitlab_time_zone: "UTC"
+gitlab_default_theme: '2'
+
+# GitLab root password after install
+gitlab_root_password: "vagrantgit"
+
+# GitLab runner token after install
+gitlab_runner_token: "cBTTnv_9daaJano7Dn4G"

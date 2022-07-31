@@ -52,7 +52,7 @@ $ terraform workspace list
 
 ![YO_workspace.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_workspace.png?raw=true)
 
-**Создание инфраструктуры**
+7. **Создание инфраструктуры**
 
 В качетсве backend используется S3 bucket YC
 
@@ -70,6 +70,8 @@ backend "s3"  {
 ```
 
 ![YO_Backend_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_Backend_1.png?raw=true)
+
+8. Перед началом развертывания все переменные в файле **variables.tf**  и **provider.tf** должны быть заполнены соответствующими значениям.
 
 Если workspace уже создан, то достаточно выполнить следующее.
 
@@ -98,3 +100,4 @@ $ terraform apply -auto-approve
 Записи DNS делегированного домена:
 
 ![YO_dns.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/YO_dns.png?raw=true)
+

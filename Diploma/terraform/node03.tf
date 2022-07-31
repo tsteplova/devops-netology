@@ -8,7 +8,6 @@ resource "yandex_compute_instance" "app" {
   resources {
     cores  = 4
     memory = 4
-#    core_fraction = local.instance_type[terraform.workspace]
   }
 
   boot_disk {

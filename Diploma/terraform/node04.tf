@@ -8,7 +8,6 @@ resource "yandex_compute_instance" "gitlab" {
   resources {
     cores  = 4
     memory = 8
-#    core_fraction = local.instance_type[terraform.workspace]
   }
 
   boot_disk {

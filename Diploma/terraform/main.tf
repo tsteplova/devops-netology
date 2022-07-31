@@ -8,7 +8,6 @@ resource "yandex_compute_instance" "nginx" {
   resources {
     cores  = 2
     memory = 2
-#    core_fraction = local.instance_type[terraform.workspace]
   }
 
   boot_disk {
@@ -26,7 +25,6 @@ resource "yandex_compute_instance" "nginx" {
 
   network_interface {
     subnet_id  = yandex_vpc_subnet.web-subnet.id
-#    subnet_id = yandex_vpc_subnet.priv-subnet.id
     nat        = true
     ip_address = "192.168.100.11"
 

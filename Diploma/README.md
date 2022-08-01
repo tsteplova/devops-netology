@@ -75,6 +75,8 @@ backend "s3"  {
 
 8. Перед началом развертывания все переменные в файле **variables.tf**  и **provider.tf** должны быть заполнены соответствующими значениям.
 
+   Так же необходимо установить  ansible\roles\runner\templates свои ключи id_rsa и id_rsa.pub
+
 Если workspace уже создан, то достаточно выполнить следующее.
 
 $ terraform init

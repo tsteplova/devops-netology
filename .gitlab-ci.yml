@@ -10,4 +10,4 @@ stages:
     script:
         - ssh -o StrictHostKeyChecking=no $DEPLOY_USER@$APP_SERVER "sudo rm -rf $WORDPRESS_FOLDER*"
         - scp -o StrictHostKeyChecking=no -q -r $CI_PROJECT_DIR/* $DEPLOY_USER@$APP_SERVER:$WORDPRESS_FOLDER;
-
+echo

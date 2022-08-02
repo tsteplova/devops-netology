@@ -117,7 +117,25 @@ $ terraform apply -auto-approve
 
 ![Alertmanager_status_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Alertmanager_status_2.png?raw=true)
 
+![GitLab_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/GitLab_1.png?raw=true)
+
+В GitLab импортируем репозиторий GitHub по URL
+
+![GitLab_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/GitLab_2.png?raw=true)
+
+Добавлен commit v1.0.2 файлу .gitlab-ci.yml
+
+![GitLab_5.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/GitLab_5.png?raw=true)
+
+![GitLab_3.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/GitLab_3.png?raw=true)
+
+![GitLab_4.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/GitLab_4.png?raw=true)
+
 ![Runners.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Runners.png?raw=true)
+
+
+
+
 
 ![Grafana_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/png/Grafana_1.png?raw=true)
 

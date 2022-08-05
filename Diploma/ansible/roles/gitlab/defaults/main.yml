@@ -18,4 +18,4 @@ gitlab_default_theme: '2'
 gitlab_root_password: "{{ gitlab_psw }}"
 
 # GitLab runner token after install
-gitlab_runner_token: "cBTTnv_9daaJano7Dn4G"
+gitlab_runner_token: " "

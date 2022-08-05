@@ -5,7 +5,7 @@ php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'p
 app_packages: [ 'apache2', 'python3-pymysql', 'php', 'php-mysql', 'libapache2-mod-php', 'git' ]
 
 #HTTP Settings
-http_host: "tsteplova.fun"
+http_host: "  "
 http_port: "80"
 
 #db vars

@@ -54,5 +54,5 @@
 
 > 4. В ответ предоставьте ссылку на репозиторий
 
-[tsteplova/example-teamcity](tsteplova/example-teamcity)
+https://github.com/tsteplova/example-teamcity
 

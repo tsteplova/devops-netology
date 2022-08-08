@@ -37,7 +37,9 @@
 
 9. Подготовьте README.md файл по своему playbook. В нём должно быть  описано: что делает playbook, какие у него есть параметры и теги.
 
-[README.md](https://github.com/tsteplova/devops-netology/blob/fix/Playbook/Playbook.md)
+[README.md](https://github.com/tsteplova/devops-netology/blob/fix/Playbook/Playbook.md) 
+
+[Теги](https://github.com/tsteplova/devops-netology/releases/tag/playbook)
 
 10. Готовый playbook выложите в свой репозиторий, в ответ предоставьте ссылку на него.
 

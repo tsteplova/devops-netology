@@ -58,7 +58,7 @@ Packer, Terraform, Docker, Kubernetes, Ansible
 >
 > <p align="justify"> Установите терраформ при помощи менеджера пакетов используемого в вашей операционной системе. В виде результата этой задачи приложите вывод команды `terraform --version`.
 
-![infrastructure.png](https://github.com/tsteplova/devops-netology/blob/fix/infrastructure.png?raw=true)
+![infrastructure.png](https://github.com/tsteplova/devops-netology/blob/fix/Infrastructure/png/infrastructure.png?raw=true)
 
 ----------------
 
@@ -68,5 +68,5 @@ Packer, Terraform, Docker, Kubernetes, Ansible
 >
 > <p align="justify"> В виде результата этой задачи приложите вывод `--version` двух версий терраформа доступных на вашем компьютере или виртуальной машине.
 
-![infrastructure1.png](https://github.com/tsteplova/devops-netology/blob/fix/infrastructure1.png?raw=true)
+![infrastructure1.png](https://github.com/tsteplova/devops-netology/blob/fix/Infrastructure/png/infrastructure1.png?raw=true)
 

@@ -10,7 +10,7 @@
 > 6. On test <-> On fix, Done
 > 7. Done <-> Closed, Open
 
-![Netology_Kanban.png](https://github.com/tsteplova/devops-netology/blob/fix/Netology_Kanban.png?raw=true)
+![Netology_Kanban.png](https://github.com/tsteplova/devops-netology/blob/fix/Software/Netology_Kanban.png?raw=true)
 
 > Остальные задачи должны проходить по упрощённому workflow:
 >
@@ -20,4 +20,4 @@
 > 4. On test <-> On develop, Done
 > 5. Done <-> Closed, Open
 
-![Netology_kanban_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Netology_kanban_1.png?raw=true)
+![Netology_kanban_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Software/Netology_kanban_1.png?raw=true)

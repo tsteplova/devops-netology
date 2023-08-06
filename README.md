@@ -142,4 +142,4 @@ ____
 
 ____
 
-> > [Дипломный блок профессии "DevOps-инженер" (DVPSPDC)](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/README.md)
+> > [дипломный блок профессии "DevOps-инженер" (DVPSPDC)](https://github.com/tsteplova/devops-netology/blob/fix/Diploma/README.md)

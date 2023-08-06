@@ -46,6 +46,6 @@
 
 > - Вывод команды `terraform plan` для воркспейса `prod`.
 
-[terraform plan](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basics/terraform_plan.log)
+[terraform plan](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basic/terraform_plan.log)
 
-[main.tf](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basics/main.tf)
+[main.tf](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basic/main.tf)

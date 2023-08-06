@@ -4,7 +4,7 @@
 >
 > 1. Поднимите инфраструктуру [teamcity](https://github.com/netology-code/mnt-homeworks/blob/master/09-ci-04-teamcity/teamcity/docker-compose.yml)
 
-![Teamcity_0.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_0.png?raw=true)
+![Teamcity_0.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_0.png?raw=true)
 
 > 1. Если хочется, можете создать свою собственную инфраструктуру на  основе той технологии, которая нравится. Инструкция по установке из [документации](https://www.jetbrains.com/help/teamcity/installing-and-configuring-the-teamcity-server.html)
 > 2. Дождитесь запуска teamcity, выполните первоначальную настройку
@@ -15,19 +15,19 @@
 
 >1. Создайте новый проект в teamcity на основе fork
 
-![Teamcity_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_1.png?raw=true)
+![Teamcity_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_1.png?raw=true)
 
 >2. Сделайте autodetect конфигурации
 
-![Teamcity_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_2.png?raw=true)
+![Teamcity_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_2.png?raw=true)
 
 >3. Сохраните необходимые шаги, запустите первую сборку master'a
 
-![Teamcity_3.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_3.png?raw=true)
+![Teamcity_3.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_3.png?raw=true)
 
 > 4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean package`, иначе `mvn clean test`
 
-![Teamcity_4.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_4.png?raw=true)
+![Teamcity_4.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_4.png?raw=true)
 
 > 4. Мигрируйте `build configuration` в репозиторий
 >5. Создайте отдельную ветку `feature/add_reply` в репозитории
@@ -36,21 +36,17 @@
 > 8. Сделайте push всех изменений в новую ветку в репозиторий
 >9. Убедитесь что сборка самостоятельно запустилась, тесты прошли успешно
 
-![Teamcity_5.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_5.png?raw=true)
-
-> 4. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`
+> 4. ![Teamcity_5.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_5.png?raw=true)Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`
 > 5. Убедитесь, что нет собранного артефакта в сборке по ветке `master`
 
-![Teamcity_6.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_6.png?raw=true)
-
-> 4. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки
+> 4. ![Teamcity_6.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_6.png?raw=true)Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки
 > 5. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны
 
-![Teamcity_7.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_7.png?raw=true)
+![Teamcity_7.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_7.png?raw=true)
 
 > 4. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity
 
-![Teamcity_8.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity_8.png?raw=true)
+![Teamcity_8.png](https://github.com/tsteplova/devops-netology/blob/fix/Teamcity/png/Teamcity_8.png?raw=true)
 
 > 4. В ответ предоставьте ссылку на репозиторий
 

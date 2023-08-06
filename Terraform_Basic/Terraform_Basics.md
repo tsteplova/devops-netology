@@ -9,7 +9,7 @@
 
 Делаю в Yandex Cloud
 
-![Terraform_Basics.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basics.png?raw=true)
+![Terraform_Basics.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basic/png/Terraform_Basics.png?raw=true)
 
 > #### Задача 2. Инициализируем проект и создаем воркспейсы.
 >
@@ -28,7 +28,7 @@
 >
 > 4. Добавим `count`. Для `stage` должен создаться один экземпляр `ec2`, а для `prod` два.
 
-![Terraform_Basics_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basics_1.png?raw=true)
+![Terraform_Basics_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basic/png/Terraform_Basics_1.png?raw=true)
 
 > 5. Создайте рядом еще один `aws_instance`, но теперь определите их количество при помощи `for_each`, а не `count`.
 >
@@ -36,13 +36,13 @@
 >
 > 7. При желании поэкспериментируйте с другими параметрами и ресурсами.
 
-![Terraform_Basics_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basics_2.png?raw=true)
+![Terraform_Basics_2.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basic/png/Terraform_Basics_2.png?raw=true)
 
 > В виде результата работы пришлите:
 >
 > - Вывод команды `terraform workspace list`.
 
-![Terraform_Basics_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basics_1.png?raw=true)
+![Terraform_Basics_1.png](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_Basic/png/Terraform_Basics_1.png?raw=true)
 
 > - Вывод команды `terraform plan` для воркспейса `prod`.
 

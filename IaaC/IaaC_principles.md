@@ -41,13 +41,13 @@
 
 **Установка VirtualBox**
 
-![VM.png](https://github.com/tsteplova/devops-netology/blob/fix/VM.png?raw=true)
+![VM.png](https://github.com/tsteplova/devops-netology/blob/fix/IaaC/png/VM.png?raw=true)
 
 **Установка Vagrant**
 
-![vagrant.png](https://github.com/tsteplova/devops-netology/blob/fix/vagrant.png?raw=true)
+![vagrant.png](https://github.com/tsteplova/devops-netology/blob/fix/IaaC/png/vagrant.png?raw=true)
 
 **Установка Ansible**
 
-![ansible.png](https://github.com/tsteplova/devops-netology/blob/fix/ansible.png?raw=true)
+![ansible.png](https://github.com/tsteplova/devops-netology/blob/fix/IaaC/png/ansible.png?raw=true)
 

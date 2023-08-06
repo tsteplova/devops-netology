@@ -6,9 +6,9 @@
 >
 > Приведите получившуюся команду или docker-compose манифест.
 
-![SQL.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL.png?raw=true)
+![SQL.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL.png?raw=true)
 
-![SQL1.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL1.png?raw=true)
+![SQL1.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL1.png?raw=true)
 
 #### Задача 2
 
@@ -20,9 +20,9 @@
 > - создайте пользователя test-simple-user
 > - предоставьте пользователю test-simple-user права на SELECT/INSERT/UPDATE/DELETE данных таблиц БД test_db
 
-![SQL9.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL9.png?raw=true)
+![SQL9.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL9.png?raw=true)
 
-![SQL4.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL4.png?raw=true)
+![SQL4.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL4.png?raw=true)
 
 > Таблица orders:
 >
@@ -37,7 +37,7 @@
 > - страна проживания (string, index)
 > - заказ (foreign key orders)
 
-![SQL3.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL3.png?raw=true)
+![SQL3.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL3.png?raw=true)
 
 > Приведите:
 >
@@ -46,7 +46,7 @@
 > - SQL-запрос для выдачи списка пользователей с правами над таблицами test_db
 > - список пользователей с правами над таблицами test_db
 
-![SQL5.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL5.png?raw=true)
+![SQL5.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL5.png?raw=true)
 
 #### Задача 3
 
@@ -64,7 +64,7 @@
 
 ​     insert into orders VALUES (1, 'Шоколад', 10), (2, 'Принтер', 3000), (3, 'Книга', 500), (4, 'Монитор', 7000), (5, 'Гитара', 4000);
 
-![SQL10.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL10.png?raw=true)
+![SQL10.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL10.png?raw=true)
 
 > Таблица clients
 >
@@ -78,7 +78,7 @@
 
 ​     insert into clients VALUES (1, 'Иванов Иван Иванович', 'USA'), (2, 'Петров Петр Петрович', 'Canada'), (3, 'Иоганн Себастьян Бах', 'Japan'), (4, 'Ронни Джеймс Дио', 'Russia'), (5, 'Ritchie Blackmore', 'Russia');
 
-![SQL11.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL11.png?raw=true)
+![SQL11.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL11.png?raw=true)
 
 > Используя SQL синтаксис:
 >
@@ -87,7 +87,7 @@
 >   - запросы
 >   - результаты их выполнения.
 
-![SQL12.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL12.png?raw=true)
+![SQL12.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL12.png?raw=true)
 
 #### Задача 4
 
@@ -107,11 +107,11 @@
 >
 > Подсказк - используйте директиву `UPDATE`.
 
-![SQL13.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL13.png?raw=true)
+![SQL13.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL13.png?raw=true)
 
 ​      также можно по-другому, результат тот же
 
-![SQL7.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL7.png?raw=true)
+![SQL7.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL7.png?raw=true)
 
 #### Задача 5
 
@@ -119,7 +119,7 @@
 >
 > Приведите получившийся результат и объясните что значат полученные значения.
 
-![SQL15.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL15.png?raw=true)
+![SQL15.png](https://github.com/tsteplova/devops-netology/blob/fix/SQL/png/SQL15.png?raw=true)
 
 Происходит чтение данных из таблиц:
 

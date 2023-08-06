@@ -20,7 +20,7 @@
 
 docker pull postgres:13
 
-![PostgreSQL.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL.png?raw=true)
+![PostgreSQL.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL.png?raw=true)
 
 docker volume create v_postgres
 
@@ -28,7 +28,7 @@ docker image tag postgres:13 v_post
 
 docker run --rm --name v_post -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD= postgres -ti -p 5432:5432 -v v_postges:/var/lib/postgresql/data postgres:13
 
-![PostgreSQL1.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL1.png?raw=true)
+![PostgreSQL1.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL1.png?raw=true)
 
 ………..
 
@@ -36,25 +36,25 @@ docker exec -ti v_post bash
 
 psql -U postgres
 
-![PostgreSQL2.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL2.png?raw=true)
+![PostgreSQL2.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL2.png?raw=true)
 
 - вывода списка БД 
 
 postgres=# \l
 
-![PostgreSQL3.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL3.png?raw=true)
+![PostgreSQL3.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL3.png?raw=true)
 
 - подключение к БД:
 
-![PostgreSQL4.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL4.png?raw=true)
+![PostgreSQL4.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL4.png?raw=true)
 
 - вывода списка таблиц
 - вывода описания содержимого     таблиц
 - выхода из psql
 
-![PostgreSQL5.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL5.png?raw=true)
+![PostgreSQL5.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL5.png?raw=true)
 
-![PostgreSQL6.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL6.png?raw=true)
+![PostgreSQL6.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL6.png?raw=true)
 
 ------
 
@@ -66,13 +66,13 @@ postgres=# \l
 >
 > Восстановите бэкап БД в `test_database`.
 
-![PostgreSQL7.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL7.png?raw=true)
+![PostgreSQL7.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL7.png?raw=true)
 
-![PostgreSQL8.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL8.png?raw=true)
+![PostgreSQL8.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL8.png?raw=true)
 
 ……….
 
-![PostgreSQL9.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL9.png?raw=true)
+![PostgreSQL9.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL9.png?raw=true)
 
 > Перейдите в управляющую консоль `psql` внутри контейнера.
 >
@@ -82,7 +82,7 @@ postgres=# \l
 >
 > **Приведите в ответе** команду, которую вы использовали для вычисления и полученный результат.
 
-![PostgreSQL10.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL10.png?raw=true)
+![PostgreSQL10.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL10.png?raw=true)
 
 --------
 
@@ -96,7 +96,7 @@ postgres=# \l
 
 Переименовываем старую таблицу и создаем новую 
 
-![PostgreSQL11.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL11.png?raw=true)
+![PostgreSQL11.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL11.png?raw=true)
 
 Можно ли было изначально исключить "ручное" разбиение при проектировании таблицы orders?
 
@@ -114,7 +114,7 @@ postgres=# \l
 
 pg_dump -U postgres -d test_database > /var/lib/postgresql/data/ test_database_dump.sql
 
-![PostgreSQL12.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL12.png?raw=true)
+![PostgreSQL12.png](https://github.com/tsteplova/devops-netology/blob/fix/PostgreSQL/png/PostgreSQL12.png?raw=true)
 
 Как бы вы доработали бэкап-файл, чтобы добавить уникальность значения столбца `title` для таблиц `test_database`?
 

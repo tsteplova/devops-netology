@@ -2,7 +2,7 @@
 
 ____
 
-> > [домашнее задание к занятию "5.1. введение в   виртуализацию. типы и функции гипервизоров. обзор рынка вендоров и   областей применения."](https://github.com/tsteplova/devops-netology/blob/fix/virtualization.md)
+> > [домашнее задание к занятию "5.1. введение в   виртуализацию. типы и функции гипервизоров. обзор рынка вендоров и   областей применения."](https://github.com/tsteplova/devops-netology/blob/fix/virtualization/virtualization.md)
 
 ____
 
@@ -22,7 +22,7 @@ ____
 
 ____
 
-> > домашнее задание к занятию "6.1. типы и структура СУБД."
+> > [домашнее задание к занятию "6.1. типы и структура СУБД."](https://github.com/tsteplova/devops-netology/blob/fix/Types_structure/Types_structure.md)
 
 ____
 
@@ -42,7 +42,7 @@ ____
 
 ____
 
-> > домашнее задание к занятию "6.6. Troubleshooting."
+> > [домашнее задание к занятию "6.6. Troubleshooting."](https://github.com/tsteplova/devops-netology/blob/fix/Troubleshooting/Troubleshooting.md)
 
 ____
 
@@ -50,7 +50,7 @@ ____
 
 ____
 
-> > домашнее задание к занятию "7.2. облачные провайдеры и синтаксис Terraform."
+> > [домашнее задание к занятию "7.2. облачные провайдеры и синтаксис Terraform."](https://github.com/tsteplova/devops-netology/blob/fix/yandex_cloud/Cloud_providers.md)
 
 ____
 
@@ -66,7 +66,7 @@ ____
 
 ____
 
-> > домашнее задание к занятию "7.6. написание собственных провайдеров для Terraform."
+> > [домашнее задание к занятию "7.6. написание собственных провайдеров для Terraform."](https://github.com/tsteplova/devops-netology/blob/fix/Terraform_own/Terraform_own_provider.md)
 
 ____
 
@@ -90,7 +90,7 @@ ____
 
 ____
 
-> > домашнее задание к занятию "9.2. Жизненный цикл разработки ПО."
+> > [домашнее задание к занятию "9.2. Жизненный цикл разработки ПО."](https://github.com/tsteplova/devops-netology/blob/fix/Software/Software_lifecycle.md)
 
 ____
 
@@ -105,24 +105,6 @@ ____
 > > домашнее задание к занятию "9.5. Gitlab."
 
 ____
-
-> > домашнее задание к занятию "____"
-
-____
-
-> > домашнее задание к занятию "____"
-
-____
-
-> > домашнее задание к занятию "____"
-
-____
-
-> > домашнее задание к занятию "____"
-
-____
-
-> > домашнее задание к занятию "____"
 
 ____
 
